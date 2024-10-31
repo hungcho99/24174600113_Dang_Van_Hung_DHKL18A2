@@ -61,8 +61,8 @@ elif loaixe == 2:
     elif km > 30:
         #đi hơn 30km thì trừ đi 0.8 với 30km đầu.
         gia_mua_cua = 13000
-        km_20 = 20 * 12100
+        km_30 = 30 * 12100
         km_dichuyen = (km - 0.8 - 30) * 12000
-        print(f"Số tiền phải trả là {int(gia_mua_cua + km_dichuyen + km_20 + cuoc_doi)}vnđ")
+        print(f"Số tiền phải trả là {int(gia_mua_cua + km_dichuyen + km_30 + cuoc_doi)}vnđ")
 
       
